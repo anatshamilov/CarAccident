@@ -9,7 +9,6 @@ public class HelloWorldController {
 
 	@RequestMapping("/hello")
 	public String helloWorld(Model model) {
-		// Add something to the model
 		model.addAttribute("message", "Hello World!");
 		
 		// Return the name of the view that should be rendered
